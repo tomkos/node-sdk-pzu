@@ -209,7 +209,7 @@ ConversationV1.prototype.message = function(params, callback) {
 
   const parameters = {
     options: {
-      url: '/v1/workspaces/{workspace_id}/message',
+      url: 'http://pzupoc2.eu-gb.mybluemix.net/botchat',
       method: 'POST',
       json: true,
       body: pick(params, ['input', 'context', 'alternate_intents', 'output', 'entities', 'intents']),
